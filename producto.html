@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/5202c2347d.js" crossorigin="anonymous"></script>
+    <title>TechStore</title>
+</head>
+<body>  
+    <!-- Header Section -->
+    <header class="header">
+        <div class="contenedor header__contenedor">
+
+            <div>
+                <h1 class="header__logo">TechStore</h1>
+            </div>
+
+            <nav class="navegacion">
+                <div class="navegacion__enlaces">
+                    <a href="index.html" class="navegacion__link">Inicio</a>
+                    <a href="nosotros.html" class="navegacion__link">Nosotros</a>
+                    <a href="productos.html" class="navegacion__link activo">Productos</a>
+                    <a href="contacto.html" class="navegacion__link">Contacto</a>
+                </div>
+                <div class="busqueda">
+                    <input class="busqueda__input" type="text" placeholder="Buscar..">
+                    <div class="busqueda__logo"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+                <div class="logos">
+                    <div class="logos__carrito"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div class="logos__login"><i class="fa-solid fa-user"></i></div>
+                </div>
+               
+                <div class="close"><i class="fa-solid fa-xmark"></i></div>
+            </nav>
+
+            <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- End Header Section -->
+    
+    <!-- Main -->
+    <main class="producto contenedor">
+
+        <section class="producto__imagen--pagina">
+            <img src="img/PC_Gamer_Hydra_RGB_Ryzen_5-5600x_-_copia.jpg" alt="imagen producto">
+        </section>
+
+        <section class="producto__contenido--pagina">
+            <h2 class="producto__contenido-nombre">PC Gamer Hydra RGB Ryzen 5 5600x</h2>
+            <p class="producto__contenido-precio">$1500</p>
+            <p class="producto__contenido-oferta">$1200</p>
+            <div class="producto__cantidad">
+                <p class="producto__cantidad-titulo">Cantidad:</p>
+                <input class="producto__cantidad-input" name="cantidad" type="number" min="1" value="1">
+            </div>
+            <a href="" class="producto__enlace producto__enlace--pagina">Agregar al carrito</a>
+            <div class="producto__calificaciones">
+                <p>-Entrega en 24 horas</p>
+                <p>-Compra segura</p>
+                <p>-Atencion Post Venta</p>
+            </div>
+            
+        </section>
+        <!-- Informacion Producto -->
+
+        <section class="informacion">
+            <h2>Información del Producto</h2>
+            <div>
+                <table class="informacion__tabla">
+                    <tr class="informacion__tabla-tr">
+                        <td class="informacion__tabla-td">Nombre:</td>
+                        <td class="informacion__tabla-td">PC Gamer Hydra RGB</td>
+                    </tr>
+                    <tr class="informacion__tabla-tr">
+                        <td class="informacion__tabla-td">Procesador:</td>
+                        <td class="informacion__tabla-td">Ryzen 5 5600x</td>
+                    </tr>
+                    <tr class="informacion__tabla-tr">
+                        <td class="informacion__tabla-td">Memoria Ram:</td>
+                        <td class="informacion__tabla-td">8gb Drr4 3200mhz</td>
+                    </tr>    
+                    <tr class="informacion__tabla-tr">
+                        <td class="informacion__tabla-td">Tarjeta Gráfica:</td>
+                        <td class="informacion__tabla-td">GTX 1660 SUPER 6gb vram</td>
+                    </tr>    
+                    <tr class="informacion__tabla-tr">
+                        <td class="informacion__tabla-td">Placa Madre:</td>
+                        <td class="informacion__tabla-td">Item</td>
+                    </tr>    
+                    <tr class="informacion__tabla-tr">
+                        <td class="informacion__tabla-td">Fuente de Poder:</td>
+                        <td class="informacion__tabla-td">600w</td>
+                    </tr>    
+                    <tr class="informacion__tabla-tr">
+                        <td class="informacion__tabla-td">Case:</td>
+                        <td class="informacion__tabla-td">Antryx </td>
+                    </tr>    
+                </table>
+            </div>
+        </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <div class="footer__texto">
+                <p class="footer__copyright">&#169 Copyright 2022<span class="footer__span">TechStore, Todos los derechos reservados</span></p>
+            </div>
+            <div class="footer__logos">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section-->
+    <script src="js/app.js"></script>
+    </body>
+</html>              
