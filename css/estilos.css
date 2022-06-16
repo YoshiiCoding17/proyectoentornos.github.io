@@ -59,8 +59,8 @@ h2{
         background-color: rgb(210, 205, 196);
         bottom: 0;
         right: -1000px;
-        min-width: 80vw;
-        height: 100vh;
+        width: 80%;
+        height: 100%;
         transition: right 1s ease;
     }
     .navegacion__enlaces{
@@ -141,8 +141,8 @@ h2{
 }
 .close{
     position: absolute;
-    top:4%;
-    right: 4%;
+    top:3.5%;
+    right: 7%;
 }
 @media (min-width: 1050px) {
     .hamburger,.close{
